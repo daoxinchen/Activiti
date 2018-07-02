@@ -157,7 +157,7 @@ public class ProcessVariablesTest {
 	@Test
 	public void completeMyPersonalTask() {
 		//任务ID
-		String taskId = "804";
+		String taskId = "3002";
 		processEngine.getTaskService()//与正在执行任务相关的Service
 					.complete(taskId);
 		System.out.println("任务完成："+taskId);
